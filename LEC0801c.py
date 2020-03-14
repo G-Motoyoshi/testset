@@ -14,7 +14,7 @@ def stoptime():
 # ここに作成せよ
 if __name__ == '__main__':
     summu = 0
-    while summu < 100:
+    while summu <= 100:
         summu += random.randint(1, 10)
         print(summu)
     print('終了')
